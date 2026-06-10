@@ -21,7 +21,7 @@ export default function Footer({ onReserve }) {
               { label: 'IG', href: '#', title: 'Instagram' },
               { label: 'FB', href: '#', title: 'Facebook' },
               { label: 'YT', href: '#', title: 'YouTube' },
-              { label: 'WA', href: 'https://wa.me/919999999999', title: 'WhatsApp' },
+              { label: 'WA', href: 'https://wa.me/917947125145', title: 'WhatsApp' },
             ].map(({ label, href, title }) => (
               <a key={label} href={href} title={title} aria-label={title} target="_blank" rel="noopener noreferrer">
                 {label}

@@ -70,7 +70,7 @@ export default function Location({ onReserve }) {
               Get Directions ↗
             </a>
             <a
-              href="https://wa.me/919999999999?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20Lassi%20Lehar!"
+              href="https://wa.me/917947125145?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20Lassi%20Lehar!"
               target="_blank"
               rel="noopener noreferrer"
               className="loc-btn loc-btn-outline"
