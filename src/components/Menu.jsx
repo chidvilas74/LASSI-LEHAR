@@ -144,7 +144,6 @@ export default function Menu() {
                 <div className="menu-card-desc">{item.desc}</div>
                 <div className="menu-card-footer">
                   <div className="menu-price"><span>₹</span>{item.price}</div>
-                  <button className="menu-order">Order →</button>
                 </div>
               </div>
             </div>
