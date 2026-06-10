@@ -10,7 +10,6 @@ export default function WhatsAppFloat() {
       <span className="whatsapp-icon">💬</span>
       <div className="whatsapp-float-text">
         Chat With Us
-        <span>Reserve via WhatsApp</span>
       </div>
     </a>
   );
