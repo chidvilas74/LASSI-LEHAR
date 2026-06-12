@@ -4,19 +4,175 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lassi Lehar — Authentic Café Experience in Sandur</title>
-    <meta name="description" content="Lassi Lehar — Sandur's most beloved café at Vijaya Circle. Fresh lassi, stone-fired pizza, and warm hospitality in the heart of Karnataka." />
-    <meta name="keywords" content="Lassi Lehar, Sandur café, restaurant Sandur, Karnataka, pizza, lassi, Vijaya Circle" />
-    <meta property="og:title" content="Lassi Lehar — Authentic Café Experience in Sandur" />
-    <meta property="og:description" content="Sandur's favourite café. Fresh lassi, stone-fired pizza, and warm hospitality." />
-    <meta property="og:type" content="website" />
+
+    <!-- Primary SEO -->
+    <title>Lassi Lehar — Best Café in Sandur, Karnataka | Lassi, Pizza & More</title>
+    <meta name="description" content="Lassi Lehar is Sandur's most beloved café at Vijaya Circle, Karnataka. Enjoy fresh mango lassi, stone-fired pizza, crispy burgers, and refreshing mocktails. Open daily 11AM–11PM." />
+    <meta name="keywords" content="Lassi Lehar, Sandur café, restaurant Sandur, Karnataka café, pizza Sandur, lassi Sandur, Vijaya Circle, best café Sandur, mango lassi, paneer pizza" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://lassi-lehar.vercel.app/" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:title" content="Lassi Lehar — Best Café in Sandur, Karnataka" />
+    <meta property="og:description" content="Sandur's favourite café. Fresh lassi, stone-fired pizza, and warm hospitality at Vijaya Circle." />
+    <meta property="og:image" content="https://lassi-lehar.vercel.app/images/hero-bg.png" />
+    <meta property="og:url" content="https://lassi-lehar.vercel.app/" />
+    <meta property="og:site_name" content="Lassi Lehar" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lassi Lehar — Best Café in Sandur, Karnataka" />
+    <meta name="twitter:description" content="Fresh lassi, stone-fired pizza & warm hospitality. Visit us at Vijaya Circle, Sandur." />
+    <meta name="twitter:image" content="https://lassi-lehar.vercel.app/images/hero-bg.png" />
+
     <meta name="theme-color" content="#0A0A0A" />
+
+    <!-- Schema.org Structured Data — LocalBusiness + Restaurant + Menu -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Lassi Lehar",
+      "description": "Sandur's most beloved café at Vijaya Circle, Karnataka. Serving fresh mango lassi, stone-fired pizza, crispy burgers, and refreshing mocktails.",
+      "url": "https://lassi-lehar.vercel.app",
+      "telephone": "+917947125145",
+      "email": "hello@lassilehar.in",
+      "image": "https://lassi-lehar.vercel.app/images/hero-bg.png",
+      "priceRange": "₹69 – ₹249",
+      "servesCuisine": ["Indian", "Pizza", "Café", "Burgers", "Mocktails"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Vijaya Circle",
+        "addressLocality": "Sandur",
+        "addressRegion": "Karnataka",
+        "postalCode": "583119",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 15.112,
+        "longitude": 76.556
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "11:00",
+          "closes": "23:00"
+        }
+      ],
+      "hasMenu": {
+        "@type": "Menu",
+        "name": "Lassi Lehar Menu",
+        "hasMenuSection": [
+          {
+            "@type": "MenuSection",
+            "name": "Pizza",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Chicken Cheese Pizza", "description": "Tender grilled chicken, triple-cheese blend, roasted jalapeños on our signature stone-baked base.", "offers": { "@type": "Offer", "price": "249", "priceCurrency": "INR" } },
+              { "@type": "MenuItem", "name": "Paneer Tikka Pizza", "description": "Smoky marinated paneer, bell peppers, onions, and tangy tikka sauce.", "offers": { "@type": "Offer", "price": "219", "priceCurrency": "INR" } },
+              { "@type": "MenuItem", "name": "Veg Supreme", "description": "Fresh vegetables, mushrooms, olives, and generous mozzarella.", "offers": { "@type": "Offer", "price": "189", "priceCurrency": "INR" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Lassi",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Mango Lassi", "description": "Chilled Alphonso mango blended with thick curd and cardamom.", "offers": { "@type": "Offer", "price": "79", "priceCurrency": "INR" } },
+              { "@type": "MenuItem", "name": "Rose Lassi", "description": "Velvety sweet curd infused with rose essence, garnished with pistachios and saffron.", "offers": { "@type": "Offer", "price": "69", "priceCurrency": "INR" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Burgers",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Chicken Crispy Burger", "description": "Double crispy fried chicken, coleslaw, pickles, and smoky sauce.", "offers": { "@type": "Offer", "price": "159", "priceCurrency": "INR" } },
+              { "@type": "MenuItem", "name": "Classic Aloo Tikki", "description": "Spiced potato patty, mint chutney, lettuce, and fresh tomato.", "offers": { "@type": "Offer", "price": "99", "priceCurrency": "INR" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Mocktails",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Virgin Mojito", "description": "Freshly muddled mint, lime, and sugar over crushed ice.", "offers": { "@type": "Offer", "price": "89", "priceCurrency": "INR" } },
+              { "@type": "MenuItem", "name": "Blue Lagoon", "description": "Blue curaçao syrup, lemon juice, and sparkling water.", "offers": { "@type": "Offer", "price": "99", "priceCurrency": "INR" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Café Specials",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Cold Coffee", "description": "Rich arabica cold brew with chilled milk and vanilla.", "offers": { "@type": "Offer", "price": "89", "priceCurrency": "INR" } },
+              { "@type": "MenuItem", "name": "Chocolate Brownie", "description": "Warm dense brownie with vanilla ice cream.", "offers": { "@type": "Offer", "price": "119", "priceCurrency": "INR" } }
+            ]
+          }
+        ]
+      },
+      "sameAs": [
+        "https://www.google.com/maps/search/Lassi+Lehar+Sandur"
+      ]
+    }
+    </script>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Noscript fallback for crawlers & audit tools that don't run JavaScript -->
+    <noscript>
+      <style>
+        .ns { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 24px; color: #333; }
+        .ns h1 { color: #8B4513; } .ns h2 { color: #555; border-bottom: 1px solid #ccc; padding-bottom: 8px; }
+        .ns table { width: 100%; border-collapse: collapse; margin-bottom: 24px; }
+        .ns td, .ns th { padding: 8px; text-align: left; border: 1px solid #ddd; }
+        .ns th { background: #f5f0e8; }
+      </style>
+      <div class="ns">
+        <h1>Lassi Lehar — Best Café in Sandur, Karnataka</h1>
+        <p>Sandur's most beloved café at Vijaya Circle, Karnataka. Fresh mango lassi, stone-fired pizza, crispy burgers, and refreshing mocktails. Open daily 11AM – 11PM.</p>
+
+        <h2>Contact &amp; Location</h2>
+        <p>📍 Vijaya Circle, Sandur, Karnataka — 583 119<br/>
+        📞 <a href="tel:+917947125145">+91 7947125145</a><br/>
+        ✉️ <a href="mailto:hello@lassilehar.in">hello@lassilehar.in</a><br/>
+        🕐 Monday – Sunday: 11:00 AM – 11:00 PM</p>
+
+        <h2>Our Menu</h2>
+        <h3>Pizza</h3>
+        <table><tr><th>Item</th><th>Price</th><th>Description</th></tr>
+          <tr><td>Chicken Cheese Pizza</td><td>₹249</td><td>Grilled chicken, triple-cheese, jalapeños on stone-baked base</td></tr>
+          <tr><td>Paneer Tikka Pizza</td><td>₹219</td><td>Smoky paneer, bell peppers, tikka sauce</td></tr>
+          <tr><td>Veg Supreme</td><td>₹189</td><td>Fresh vegetables, mushrooms, olives, mozzarella</td></tr>
+        </table>
+        <h3>Lassi</h3>
+        <table><tr><th>Item</th><th>Price</th><th>Description</th></tr>
+          <tr><td>Mango Lassi</td><td>₹79</td><td>Alphonso mango, thick curd, cardamom</td></tr>
+          <tr><td>Rose Lassi</td><td>₹69</td><td>Rose essence, pistachios, saffron threads</td></tr>
+        </table>
+        <h3>Burgers</h3>
+        <table><tr><th>Item</th><th>Price</th><th>Description</th></tr>
+          <tr><td>Chicken Crispy Burger</td><td>₹159</td><td>Crispy fried chicken, coleslaw, smoky sauce</td></tr>
+          <tr><td>Classic Aloo Tikki</td><td>₹99</td><td>Spiced potato patty, mint chutney, lettuce</td></tr>
+        </table>
+        <h3>Mocktails</h3>
+        <table><tr><th>Item</th><th>Price</th><th>Description</th></tr>
+          <tr><td>Virgin Mojito</td><td>₹89</td><td>Mint, lime, sugar, crushed ice</td></tr>
+          <tr><td>Blue Lagoon</td><td>₹99</td><td>Blue curaçao syrup, lemon, sparkling water</td></tr>
+        </table>
+        <h3>Café Specials</h3>
+        <table><tr><th>Item</th><th>Price</th><th>Description</th></tr>
+          <tr><td>Cold Coffee</td><td>₹89</td><td>Arabica cold brew, chilled milk, vanilla</td></tr>
+          <tr><td>Chocolate Brownie</td><td>₹119</td><td>Warm brownie with vanilla ice cream</td></tr>
+        </table>
+      </div>
+    </noscript>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

@@ -44,7 +44,7 @@ export default function Hero({ onReserve }) {
       <div className="hero-content">
         <p className="hero-eyebrow">Est. Sandur · Karnataka · India</p>
         <h1 className="hero-title"><em>Lassi</em> Lehar</h1>
-        <p className="hero-subtitle">Authentic Café Experience in Sandur</p>
+        <p className="hero-subtitle">Best Café in Sandur, Karnataka — Authentic Lassi, Pizza &amp; More</p>
         <p className="hero-location">📍 Vijaya Circle, Sandur — Karnataka 583119</p>
         <div className="hero-buttons">
           <button className="btn-primary" onClick={() => scrollTo('menu')}>View Menu</button>

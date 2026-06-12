@@ -112,6 +112,9 @@ export default function Menu() {
         <div>
           <span className="section-eyebrow reveal">Our Specialities</span>
           <h2 className="section-title reveal reveal-delay-1">The <em>Menu</em></h2>
+          <p style={{ position:'absolute', width:'1px', height:'1px', overflow:'hidden', clip:'rect(0,0,0,0)', whiteSpace:'nowrap' }}>
+            Our Delicious Lassi &amp; Pizza Menu at Lassi Lehar, Sandur — Mango Lassi, Rose Lassi, Chicken Pizza, Paneer Pizza, Burgers, Mocktails
+          </p>
         </div>
         <div className="menu-cats reveal reveal-delay-2">
           {CATS.map(({ key, label }) => (
